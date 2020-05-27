@@ -1,0 +1,62 @@
+h1{
+	text-align: center;
+	font-size: 12pt;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+body{
+	font-family: 'Courier';
+	color: #000;
+	/*background: black;*/
+	font-size: 7pt;
+}
+
+svg{
+	background-color: white;
+	shape-rendering: auto;
+	margin: 0 auto;
+	display: block;
+	cursor: crosshair;
+}
+
+.rating-line{
+	fill: none;
+}
+
+.country-label{
+	alignment-baseline: center;
+	opacity: .5;
+}
+
+
+a{
+	color: white;
+	background-color: #4f44ea;
+	text-decoration: none;
+	outline: 0;
+	padding: 1px;
+}
+
+a:hover{
+	color: #4f44ea;
+	background-color: white;
+	cursor: pointer;
+	padding: 1px;
+}
+
+a:active{
+	color: #4f44ea;
+	background: #4f44ea;
+	outline: none;
+	padding: 1px;
+}
+
+.notes{
+	width: 40%;
+	margin: 0 auto;
+	padding-bottom: 100px; 
+	font-size: 8pt;
+	line-height: 12pt;
+	opacity: .8;
+}
