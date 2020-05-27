@@ -1,0 +1,65 @@
+h1{
+	text-align: center;
+	font-size: 12pt;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+body{
+	font-family: 'Courier';
+	color: #fff;
+	background-color: black;
+	font-size: 10pt;
+}
+
+svg{
+	border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+	background-color: none;
+	shape-rendering: optimize-quality;
+	margin: 0 auto;
+	display: block;
+	cursor: crosshair;
+}
+
+#svg-holder{
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+}
+
+.notes{
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 50px; 
+	font-size: 9pt;
+	line-height: 12pt;
+}
+
+a{
+	color: white;
+	background-color: #39a4ce;
+	text-decoration: none;
+	outline: 0;
+	padding: 1px;
+}
+
+a:hover{
+	color: #39a4ce;
+	background-color: white;
+	cursor: pointer;
+	padding: 1px;
+}
+
+a:active{
+	color: #39a4ce;
+	background: #39a4ce;
+	outline: none;
+	padding: 1px;
+}
+
+li{
+	list-style-type: none;
+	margin: 3px;
+	margin-left: 20px;
+}
