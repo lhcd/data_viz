@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>🐦</title>
+		<meta charset="UTF-8"> 
+		<link rel="stylesheet" type="text/css" href="../../../style.css">
+		<style type="text/css">
+			body{
+				font-family: 'Courier';
+				color: #000;
+				font-size: 10pt;
+			}
+
+			svg{
+				background-color: white;
+				shape-rendering: optimize-quality;
+				margin: 0 auto;
+				display: block;
+				cursor: crosshair;
+			}
+		</style>
+	</head>
+
+	<body>
+		<br><br>
+		<div id="burds"></div>
+		<br>
+
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="./data/hierarchy.json"></script>
+		<script type="text/javascript" src="main.js"></script>
+		
+		<div class="notes">
+			<p>A chart displaying the feeding behaviors of various birds in an Ohio nature sanctuary.</p>
+
+			<p>Weight is missing in the woodpecker row due to lack of clarity regarding the specific species. Several types of woodpeckers live in Ohio, and they have widely varying weights.</p>
+
+			<p>
+				<li><a href="https://i.imgur.com/RicYHQ3.jpg">Original data</a></li>
+				<li>Additional data for the cropped phylogenetic tree and weights were from the <a href="http://www.holdenarb.org/">Holden Arboretum</a></li>
+				<li><a href="large.png">Larger static view</a></li>
+			</p>
+		</div>
+
+	</body>
+</html>
